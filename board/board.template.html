@@ -1,0 +1,7 @@
+<div class="container-fluid">
+    <div ng-repeat="rowColors in $ctrl.cellColors">
+        <div class="horizontal" ng-repeat="color in rowColors track by $index">
+            <cell color="color"></cell>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+body {
+    padding-top: 1em;
+}
+
+.horizontal {
+    display: inline-block;
+}
+
+.form-control {
+    margin-bottom: 0.5em;
+}
+
+.cell {
+    height: 2em;
+    width: 2em;
+    border: 1px solid #999999;
+    margin-right: 5px;
+}
+
+.error {
+    color: #d84949;
+}
